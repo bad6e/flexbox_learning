@@ -14,23 +14,28 @@ Grey dark 1: #333
 Grey dark 2: #777
 Grey dark 3: #999
 */
+
 :root {
   --color-primary: #eb2f64;
   --color-primary-light: #FF3366;
-  --color-primary-dark: #BA265D; }
+  --color-primary-dark: #BA265D;
+}
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%; // 1rem equals = 10px/16px = 62.5%
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -39,4 +44,6 @@ body {
   background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh; }
+  min-height: 100vh;
+
+}
